@@ -17,11 +17,5 @@ let foodList = [
   , attribute: "Taco" },
   { name: 'Wings', description: 'Description', href: '#', pic:'../images/wings.png'
   , attribute: "Wings" },
-  
-  
-]
-
-  ;
-
-
+];
 export {foodList}
