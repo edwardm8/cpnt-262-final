@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+}
+
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  max-width: fit-content;
+  position: sticky;
+  
+}
+
+h2 {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+img {
+  display: flex;
+  margin: auto;
+  overflow: hidden;
+  max-width: 45ch;
+}
+
+p {
+  color: #000;
+  display: block;
+  text-decoration: none;
+  text-align:center;
+  font-size: large;
+  padding: 2rem;
+  
+}
+
+.cards{
+  background-color: aqua;
+  text-align: center;
+  margin:auto;
+  border-radius: 5%;
+  max-width: 50%;
+  transition: ease-in-out 0.2s;
+  margin-top: 2rem;
+  margin-bottom: 10rem;
+}
+
+.cards:hover {
+  scale: 115%;
+  background-color: #000;
+}
+
+.cards:hover p {
+  color: aliceblue;
+}
+
+.cards:hover h2 {
+  color:aliceblue
+}
