@@ -13,6 +13,7 @@
 				<a class="hover:text-secondary-500" href="/">Home</a>
 				<a class="hover:text-secondary-500" href="/about">About</a>
 				<a class="hover:text-secondary-500" href="/products">Products</a>
+				<a href="/details">Testing</a>
         <LightSwitch />
 			</svelte:fragment>
 		</AppBar>

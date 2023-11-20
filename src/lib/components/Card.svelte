@@ -4,7 +4,7 @@
 
 
 <section class="gallery-recipe">
-	<h2 class="title">Recipe</h2>
+	<h2 class="title">Description</h2>
 	<ul>
 		{#each foodList as { href, name, description, pic, attribute}}
 		<div class="cards">
