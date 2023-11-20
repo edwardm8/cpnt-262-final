@@ -1,4 +1,4 @@
-<script type="module">
+<script>
   import {foodList} from "../data.js";
 </script>
 
