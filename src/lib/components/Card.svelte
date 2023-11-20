@@ -3,7 +3,7 @@
 </script>
 
 
-<section>
+<section class="">
 	<h2 class="title">Recipe</h2>
 	<ul>
 		{#each foodList as { href, name, description, pic, attribute}}
