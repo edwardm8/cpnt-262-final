@@ -63,3 +63,7 @@ p {
 .cards:hover h2 {
   color:aliceblue
 }
+
+.title {
+  padding-bottom: 2rem;
+}
