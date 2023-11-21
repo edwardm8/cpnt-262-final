@@ -4,7 +4,7 @@
 
 
 <section class="gallery-recipe">
-	<h2 class="title">List Of Foods</h2>
+	<h2 class="title">Our Menu</h2>
 	<ul>
 		{#each foodList as { href, name, description, pic, attribute}}
 		<div class="cards">
@@ -66,14 +66,11 @@ ul {
 }
 
 img {
-  display: flex;
-  overflow: hidden;
-  max-width:25ch;
-  border-radius: 2rem;
   margin: auto;
   margin-top: 2rem;
-  margin-bottom: 2rem;
+  border-radius: 5%;
   
+
 }
 
 
