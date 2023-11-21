@@ -1,7 +1,6 @@
 <script>
-  import '../../app.css';
-  import Card from '../../lib/components/Card.svelte';
+  import Gallery from '../../lib/components/gallery.svelte';
 </script>
 
+<Gallery />
 
-<Card />
