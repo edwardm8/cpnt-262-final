@@ -26,15 +26,6 @@ h2 {
   font-size: 2.5rem;
 }
 
-img {
-  display: flex;
-  overflow: hidden;
-  max-width:25ch;
-  border-radius: 2rem;
-  margin: auto;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
 
 
 .cards{
@@ -60,21 +51,30 @@ img {
   padding-bottom: 2rem;
 }
 
-
-ul {
-    overflow: hidden;
-    display: grid;
-    grid-gap: 5rem;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto;
-    margin: 2rem;
-}
-
-
 a {
   text-decoration: none;
   color: black;
   max-width: max-content;
 }
+
+ul {
+  overflow: hidden;
+  display: grid;
+  grid-gap: 5rem;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+}
+
+img {
+  display: flex;
+  overflow: hidden;
+  max-width:25ch;
+  border-radius: 2rem;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  
+}
+
 
 </style>
