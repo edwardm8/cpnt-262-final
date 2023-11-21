@@ -19,6 +19,7 @@
 </section>
 <style>
 
+
 h2 {
   text-align: center;
   padding-top: 2rem;
@@ -27,11 +28,12 @@ h2 {
 
 img {
   display: flex;
-  margin: auto;
-  margin-top: 2rem;
   overflow: hidden;
   max-width:25ch;
   border-radius: 2rem;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 
@@ -65,13 +67,14 @@ ul {
     grid-gap: 5rem;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;
+    margin: 2rem;
 }
+
+
 a {
   text-decoration: none;
   color: black;
   max-width: max-content;
-
-  
 }
 
 </style>
