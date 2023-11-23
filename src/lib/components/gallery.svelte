@@ -19,7 +19,7 @@
   border-radius: 5%;
   max-width: 50ch;
   transition: ease-in-out 0.2s;
-  margin-top: 2rem;
+  margin-top: 5rem;
   margin-bottom: 10rem;
 }
 
@@ -28,31 +28,5 @@
   background-color: #000;
 }
 
-/* .cards:hover h2 {
-  color:aliceblue
-}
 
-.title {
-  padding-bottom: 2rem;
-} */
-
-/* a {
-  text-decoration: none;
-  color: black;
-  max-width: max-content;
-} */
-
-/* ul {
-  overflow: hidden;
-  display: grid;
-  grid-gap: 5rem;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: auto auto auto;
-}
-
-img {
-  margin: auto;
-  margin-top: 2rem;
-  border-radius: 5%;
-} */
 </style>
