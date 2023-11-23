@@ -7,10 +7,7 @@
 <style>
 
 
-/* h2 {
-  text-align: center;
-  padding-top: 2rem;
-  font-size: 2.5rem;
+/* 
 } */
 
 .cards{
