@@ -31,6 +31,12 @@
   }
 </style>
 
+<svelte:head>
+  <title>
+    Our Current Menu
+  </title>
+</svelte:head>
+
 <ul>
   {#each foodList as {href,name,pic,attribute}}
     <Gallery>
