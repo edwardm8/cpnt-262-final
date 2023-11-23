@@ -7,13 +7,11 @@
 <style>
 
 
-h2 {
+/* h2 {
   text-align: center;
   padding-top: 2rem;
   font-size: 2.5rem;
-}
-
-
+} */
 
 .cards{
   background-color:rgb(104 11 29);
@@ -30,21 +28,21 @@ h2 {
   background-color: #000;
 }
 
-.cards:hover h2 {
+/* .cards:hover h2 {
   color:aliceblue
 }
 
 .title {
   padding-bottom: 2rem;
-}
+} */
 
-a {
+/* a {
   text-decoration: none;
   color: black;
   max-width: max-content;
-}
+} */
 
-ul {
+/* ul {
   overflow: hidden;
   display: grid;
   grid-gap: 5rem;
@@ -56,9 +54,5 @@ img {
   margin: auto;
   margin-top: 2rem;
   border-radius: 5%;
-  
-
-}
-
-
+} */
 </style>

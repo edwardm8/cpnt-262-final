@@ -3,13 +3,43 @@
   import {foodList} from "$lib/data.js";
 </script>
 
-{#each foodList as {link,name,pic,attribute}}
-  <Gallery>
-    <a href={link}>
-      <header><h2>{name}</h2></header>
-      <img src={pic} alt={attribute}>
-    </a>
-  </Gallery>
-{/each}
+<style>
+  h2 {
+  text-align: center;
+  padding-top: 2rem;
+  font-size: 2.5rem;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+    max-width: max-content;
+  }
+
+  img {
+    margin: auto;
+    margin-top: 2rem;
+    border-radius: 5%;
+  }
+ 
+  ul {
+  overflow: hidden;
+  display: grid;
+  grid-gap: 5rem;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  }
+</style>
+
+<ul>
+  {#each foodList as {href,name,pic,attribute}}
+    <Gallery>
+      <a href={href}>
+        <header><h2>{name}</h2></header>
+        <img src={pic} alt={attribute}>
+      </a>
+    </Gallery>
+  {/each}
+</ul>
 
 

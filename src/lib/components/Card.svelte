@@ -1,9 +1,6 @@
-<script>
-  import {foodList} from "../data.js";
-</script>
+<div><slot /></div>
 
-
-<section class="gallery-recipe">
+<!-- <section class="gallery-recipe">
 	<h2 class="title">Description</h2>
 	<ul>
 		{#each foodList as { href, name, description, pic, attribute}}
@@ -16,7 +13,6 @@
 		 </p>
 		</a>
 		</div>
-
 		{/each}
 </ul>
-</section>
+</section> -->
