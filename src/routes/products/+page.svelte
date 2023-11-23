@@ -22,7 +22,7 @@
     margin: auto;
     margin-top: 2rem;
     border-radius: 5%;
-    height: 100%;
+    height: 50%;
   }
  
   ul {
@@ -31,6 +31,11 @@
   grid-gap: 5rem;
   grid-template-columns: auto auto auto;
   grid-template-rows: auto auto auto;
+  }
+
+  p {
+    color: white;
+    padding: 2rem;
   }
 
 
@@ -45,11 +50,14 @@
 </svelte:head>
 
 <ul>
-  {#each foodList as {href,name,pic,attribute,id}}
+  {#each foodList as {href,name,pic,attribute,id,flavourText}}
     <Gallery>
       <a href="{href}{id}">
         <header><h2>{name}</h2></header>
         <img src={pic} alt={attribute}>
+        <p>
+          {flavourText}
+        </p>
       </a>
     </Gallery>
   {/each}

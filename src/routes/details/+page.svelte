@@ -4,7 +4,7 @@
   import {foodList} from "$lib/data.js";
 </script>
 
-{#each foodList as { href, name, description, pic, attribute, flavourText}}
+{#each foodList as { href, name, description, pic, attribute}}
   <Card>
 		<div class="cards">
 			<a {href}>
@@ -12,9 +12,6 @@
 		<img src={pic} alt={attribute}>
 		<p>
 			{description}
-		 </p>
-		 <p>
-			{flavourText}
 		 </p>
 		</a>
 		</div>
