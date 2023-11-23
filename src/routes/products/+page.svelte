@@ -1,7 +1,6 @@
 <script>
   import Gallery from '../../lib/components/gallery.svelte';
   import {foodList} from "$lib/data.js";
-  import { AppShell } from '@skeletonlabs/skeleton';
 </script>
 
 <style>
@@ -38,9 +37,6 @@
     color: white;
     padding: 2rem;
   }
-
-
-
 
 </style>
 

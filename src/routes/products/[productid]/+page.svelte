@@ -5,6 +5,12 @@
   const { post } = data;
 </script>
 
+<svelte:head>
+  <title>
+    {post.name}
+  </title>
+</svelte:head>
+
 <Card>
   <div class="cards">
     <a href={post.href}>
@@ -17,9 +23,7 @@
   </div>
 </Card> 
 
- <style>
-
-
+<style>
 h2 {
   text-align: center;
   padding: 2rem;
@@ -47,6 +51,4 @@ p {
   scale: 115%;
   background-color: #000;
 }
-
-
  </style>
