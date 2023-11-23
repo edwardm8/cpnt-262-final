@@ -1,4 +1,4 @@
-let foodList = [
+export let foodList = [
   { name: 'Burger', description: 'A burger, short for hamburger, is a popular food item consisting of a cooked patty made from ground meat, typically beef, although other meats or plant-based alternatives can also be used. The patty is usually seasoned with various spices and grilled, fried, or broiled to achieve the desired level of doneness. It is then placed between two halves of a bun, which can be toasted or left as is. Burgers often come with a variety of toppings and condiments, such as lettuce, tomato, onions, pickles, cheese, ketchup, mustard, mayonnaise, and more. These toppings can be customized based on personal preference, allowing for a wide range of flavor combinations. Some burgers may also include additional ingredients like bacon, mushrooms, avocado, or special sauces to enhance the taste. Burgers are commonly served with side dishes like french fries, onion rings, coleslaw, or a salad. They are enjoyed by people of all ages and are a staple in many fast-food restaurants, diners, and backyard barbecues.', href: '/details', pic:'../images/burger.png'
   , attribute: "Burger" },
   
@@ -27,4 +27,3 @@ let foodList = [
   , attribute: "Wings" },
 
 ];
-export {foodList}

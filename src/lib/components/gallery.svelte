@@ -1,22 +1,9 @@
-<script>
-  import {foodList} from "../data.js";
-</script>
 
 
-<section class="gallery-recipe">
-	<h2 class="title">Our Menu</h2>
-	<ul>
-		{#each foodList as { href, name, description, pic, attribute}}
-		<div class="cards">
-			<a {href}>
-				<header><h2>{name}</h2></header>
-		<img src={pic} alt={attribute}>
-		</a>
-		</div>
+<div class="cards">
+  <slot />
+</div>
 
-		{/each}
-</ul>
-</section>
 <style>
 
 
