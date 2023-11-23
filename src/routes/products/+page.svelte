@@ -1,6 +1,7 @@
 <script>
   import Gallery from '../../lib/components/gallery.svelte';
   import {foodList} from "$lib/data.js";
+  import { AppShell } from '@skeletonlabs/skeleton';
 </script>
 
 <style>
@@ -48,19 +49,20 @@
     Our Current Menu
   </title>
 </svelte:head>
+  <ul>
+    {#each foodList as {href,name,pic,attribute,id,flavourText}}
+      <Gallery>
+        <a href="{href}{id}">
+          <header><h2>{name}</h2></header>
+          <img src={pic} alt={attribute}>
+          <p>
+            {flavourText}
+          </p>
+        </a>
+      </Gallery>
+    {/each}
+  </ul>
 
-<ul>
-  {#each foodList as {href,name,pic,attribute,id,flavourText}}
-    <Gallery>
-      <a href="{href}{id}">
-        <header><h2>{name}</h2></header>
-        <img src={pic} alt={attribute}>
-        <p>
-          {flavourText}
-        </p>
-      </a>
-    </Gallery>
-  {/each}
-</ul>
+
 
 

@@ -1,13 +1,11 @@
-
-
+<script>
+  import '../../app.css'
+</script>
 <div class="cards">
   <slot />
 </div>
 
 <style>
-
-
-
 .cards{
   background-color:rgb(104 11 29);
   text-align: center;
@@ -24,6 +22,4 @@
   scale: 115%;
   background-color: #000;
 }
-
-
 </style>

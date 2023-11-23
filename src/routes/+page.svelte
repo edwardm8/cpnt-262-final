@@ -24,7 +24,7 @@ const diffDate = oldDate.diff(now, 'day')
     <h1 class="h1">Christmas Special</h1>
     <p>25% off any menu item! Limited time offer:</p>
     <h2 class="h2">{diffDate} days left</h2>
-    <button type="button" class="btn variant-filled">Order</button>
+    <a type="button" class="btn variant-filled" href="/products">Order</a>
   </div>
 </section>
 
