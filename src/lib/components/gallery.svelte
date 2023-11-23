@@ -7,8 +7,6 @@
 <style>
 
 
-/* 
-} */
 
 .cards{
   background-color:rgb(104 11 29);
@@ -18,6 +16,8 @@
   transition: ease-in-out 0.2s;
   margin-top: 5rem;
   margin-bottom: 10rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .cards:hover {

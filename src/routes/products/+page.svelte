@@ -22,6 +22,7 @@
     margin: auto;
     margin-top: 2rem;
     border-radius: 5%;
+    height: 100%;
   }
  
   ul {
