@@ -5,6 +5,7 @@
 </script>
 
 {#each foodList as { href, name, description, pic, attribute}}
+  <Card>
 		<div class="cards">
 			<a {href}>
 				<header><h2>{name}</h2></header>
@@ -14,7 +15,7 @@
 		 </p>
 		</a>
 		</div>
+  </Card>
 {/each}
 
-<Card />
 

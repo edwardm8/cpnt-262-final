@@ -38,9 +38,9 @@
 </svelte:head>
 
 <ul>
-  {#each foodList as {href,name,pic,attribute}}
+  {#each foodList as {href,name,pic,attribute,id}}
     <Gallery>
-      <a href={href}>
+      <a href="{href}{id}">
         <header><h2>{name}</h2></header>
         <img src={pic} alt={attribute}>
       </a>
