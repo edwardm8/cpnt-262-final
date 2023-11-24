@@ -12,6 +12,7 @@
 			<svelte:fragment slot="trail">
 				<a class="hover:text-secondary-500 h3" href="/">Home</a>
 				<a class="hover:text-secondary-500 h3" href="/products">Products</a>
+				<a class="hover:text-secondary-500 h3" href="/about">About</a>
 			</svelte:fragment>
 		</AppBar>
 	</svelte:fragment>
