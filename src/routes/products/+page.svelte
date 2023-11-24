@@ -1,6 +1,7 @@
 <script>
   import Gallery from '../../lib/components/gallery.svelte';
   import {foodList} from "$lib/data.js";
+  import '../../app.css'
 </script>
 
 <style>
@@ -60,6 +61,7 @@
     Our Current Menu
   </title>
 </svelte:head>
+<h1 class="text-center bg-primary-800 h1 p-4">Menu</h1>
   <ul>
     {#each foodList as {href,name,pic,attribute,id,flavourText}}
       <Gallery>

@@ -6,7 +6,7 @@
 </script>
 
 
-<section class="bg-primary-900 flex p-4 items-center justify-center">
+<section class="flex m-auto max-w-fit items-center p-4">
   <img class="max-w-xl"src={cardImg} alt={alt}>
   <div class="text max-w-2xl">
     <h2 class="h2 p-4">{title}</h2>

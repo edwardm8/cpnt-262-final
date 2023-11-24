@@ -1,5 +1,6 @@
 <script>
 import dayjs from 'dayjs'
+import '../app.css'
 
 
 let now = dayjs().format('MMM D, YYYY')

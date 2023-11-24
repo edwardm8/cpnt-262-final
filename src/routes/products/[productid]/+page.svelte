@@ -1,6 +1,6 @@
 <script>
   import Card from '$lib/components/gallery.svelte';
-  
+  import '../../../app.css'
   export let data
   const { post } = data;
 </script>

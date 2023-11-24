@@ -21,6 +21,11 @@
 		<AppBar background="bg-primary-50-900-token">
 			<svelte:fragment slot="trail">
 				<div class="flex flex-col text-center m-auto">
+					<nav class="p-4 flex gap-4">
+						<a class="hover:text-secondary-500 h3" href="/">Home</a>
+						<a class="hover:text-secondary-500 h3" href="/products">Products</a>
+						<a class="hover:text-secondary-500 h3" href="/about">About</a>
+					</nav>
 					<p>&copy; All Rights Resvered Everything Pub</p>
 					<p>Edward Mah, Ashkie Esperanza</p>
 				</div>
