@@ -12,10 +12,9 @@
   border-radius: 5%;
   max-width: 50ch;
   transition: ease-in-out 0.2s;
-  margin-top: 5rem;
-  margin-bottom: 10rem;
-  margin-left: 2rem;
-  margin-right: 2rem;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .cards:hover {
