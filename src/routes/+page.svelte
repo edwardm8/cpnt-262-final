@@ -11,7 +11,7 @@ const diffDate = oldDate.diff(now, 'day')
 
 <style>
   .hero{
-    background-image: url('hero.png');
+    background-image: url('../images/hero.png');
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
