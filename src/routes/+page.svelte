@@ -12,7 +12,8 @@ const diffDate = oldDate.diff(now, 'day')
 
 <style>
   .hero{
-    background-image: url('$lib/assets/hero.png');
+    /* Had to move image to assets folder instead of static since css url is weird with static handling and css url */
+    background-image: url('$lib/assets/hero.png'); 
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
