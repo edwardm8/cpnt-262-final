@@ -5,7 +5,7 @@
   export let alt= 'test'
 </script>
 
-
+<!-- component for info box in about page -->
 <section class="flex m-auto max-w-fit items-center p-4">
   <img class="max-w-xl"src={cardImg} alt={alt}>
   <div class="text max-w-2xl">

@@ -61,6 +61,8 @@
     Our Current Menu
   </title>
 </svelte:head>
+
+<!-- Product 9 menu items -->
 <h1 class="text-center bg-primary-800 h1 p-4">Menu</h1>
   <ul>
     {#each foodList as {href,name,pic,attribute,id,flavourText}}
