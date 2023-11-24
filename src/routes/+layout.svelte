@@ -22,7 +22,7 @@
 			<svelte:fragment slot="trail">
 				<div class="flex flex-col text-center m-auto">
 					<p>&copy; All Rights Resvered Everything Pub</p>
-					<p>Edward Mah, Ashkie Asparanza</p>
+					<p>Edward Mah, Ashkie Esperanza</p>
 				</div>
 			</svelte:fragment>
 		</AppBar>

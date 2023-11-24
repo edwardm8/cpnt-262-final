@@ -10,6 +10,7 @@
   padding-top: 2rem;
   font-size: 2.5rem;
   color: white;
+  line-height: 2rem;
   }
   
 
@@ -32,12 +33,24 @@
   grid-gap: 5rem;
   grid-template-columns: auto auto auto;
   grid-template-rows: auto auto auto;
-  }
+  padding: 2rem;
+}
 
   p {
+    display: flex;
     color: white;
     padding: 2rem;
   }
+
+
+  @media only screen and (max-width: 750px) {
+  ul {
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+  }
+
+  
+}
 
 
 </style>
