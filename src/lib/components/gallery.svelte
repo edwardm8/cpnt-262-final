@@ -20,5 +20,15 @@
 .cards:hover {
   scale: 115%;
   background-color: #000;
+  cursor: pointer;
 }
+
+  
+  @media only screen and (max-width: 1050px) {
+  .cards {
+    min-width: 75%;
+  }
+}
+
+
 </style>
