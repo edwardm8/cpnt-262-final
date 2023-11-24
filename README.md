@@ -4,7 +4,7 @@
 - Ashkie Esperanza
 - Edward Mah
 ### Link:
-- [Netlify]()
+- [Netlify](https://cpnt-262-final.vercel.app/)
 - [GH Repo](https://github.com/edwardm8/cpnt-262-final.git)
 
 ### Search Queries
