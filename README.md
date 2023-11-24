@@ -26,8 +26,6 @@ important: "Logic Each Block Svelte"
 - Search: [Importing JS to Component](https://youtube.com/shorts/FGSEmGEP_78?si=2qPz6WIoNKlXAPSu)
 important: "Import JS to Component"
 
-
-
 ### Attributions
 - [Menu images, hero image and award images](https://www.midjourney.com/home?callbackUrl=%2Fexplore)
 - [family image](https://www.ikcplay.com/news/7x-tips-family-friendly-restaurant)
