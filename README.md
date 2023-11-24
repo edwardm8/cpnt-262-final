@@ -15,3 +15,4 @@ important: "Svelte Dynamic routes"
 important: "params"
 - Search: [svelte:site route parameters](https://kit.svelte.dev/docs/advanced-routing)
 important: "Svelte:site"
+ 
