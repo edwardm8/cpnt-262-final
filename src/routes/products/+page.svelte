@@ -4,6 +4,7 @@
 </script>
 
 <style>
+  
   h2 {
   text-align: center;
   padding-top: 2rem;
@@ -37,6 +38,7 @@
     color: white;
     padding: 2rem;
   }
+
 
 </style>
 
