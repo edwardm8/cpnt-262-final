@@ -22,10 +22,12 @@ const infoAward =
   </title>
 </svelte:head>
 
+<!-- about page -->
 <h1 class="text-center h1 p-4 bg-primary-800">About Us</h1>
 
 <Info {...infoAward} />
 
+<!-- awards section -->
 <section class="flex justify-center bg-primary-800 p-4">
   <img class="max-w-sm p-4" src="../../images/award1.png" alt="">
   <img class="max-w-sm p-4" src="../../images/award2.png" alt="">

@@ -2,6 +2,7 @@
   import '../../app.css'
 </script>
 
+<!-- Card component Design -->
 <div class="cards">
   <slot />
 </div>

@@ -2,7 +2,7 @@
 import dayjs from 'dayjs'
 import '../app.css'
 
-
+//Used Dayjs to put the homepage sale ending time
 let now = dayjs().format('MMM D, YYYY')
 const oldDate = dayjs('2024-01-01')
 

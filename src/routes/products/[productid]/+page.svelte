@@ -11,6 +11,7 @@
   </title>
 </svelte:head>
 
+<!-- Single large item uses card component -->
 <Card>
   <div class="cards">
     <a href={post.href}>
@@ -24,7 +25,6 @@
 </Card> 
 
 <style>
-
 
 h2 {
   text-align: center;
